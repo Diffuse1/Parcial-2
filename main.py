@@ -1,10 +1,10 @@
 from lib import *
-imprimir ()
+print(Archivo,numero,Rojo)
 print('--------------------------------------------------------------------------')
-print("Árbol ordenado:")
+print("Árbol Extensión:")
 print_arbol(arbol)
 print()
-
+print('--------------------------------------------------------------')
 print("Recorrido InOrder:")
 print(LVR(arbol))
 print()
@@ -17,6 +17,8 @@ print("Recorrido PostOrder:")
 print(LRV(arbol))
 print()
 
-
+print('--------------------------------------------------------------------------------------')
 print("Arbol Ordenado")
-print(arbol)
+print(Ordenado(arbol))
+
+
